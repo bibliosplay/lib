@@ -371,7 +371,7 @@
         /* Product Cards */
         .products-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: 2rem;
         }
 
@@ -431,6 +431,10 @@
 
         .product-card:nth-child(2) .product-icon {
             background: linear-gradient(135deg, rgba(6, 182, 212, 0.2), rgba(99, 102, 241, 0.2));
+        }
+
+        .product-card:nth-child(3) .product-icon {
+            background: linear-gradient(135deg, rgba(250, 204, 21, 0.2), rgba(236, 72, 153, 0.2));
         }
 
         .product-card h3 {
@@ -771,7 +775,7 @@
     <!-- Stats -->
     <div class="stats-bar">
         <div class="stat">
-            <div class="stat-number" data-target="2">0</div>
+            <div class="stat-number" data-target="3">0</div>
             <div class="stat-label">Productos lanzados</div>
         </div>
         <div class="stat">
@@ -794,7 +798,7 @@
             <div class="section-tag">Nuestros Productos</div>
             <h2 class="section-title">Herramientas para la comunidad</h2>
             <p class="section-desc">
-                Dos plataformas diseñadas para renovar la manera en que la comunidad interactúa con la biblioteca.
+                Tres plataformas diseñadas para renovar la manera en que la comunidad interactúa con la biblioteca.
             </p>
         </div>
 
@@ -837,6 +841,27 @@
                 </ul>
                 <a href="https://bibliocatalogo.vercel.app" target="_blank" class="product-btn">
                     Explorar catálogo
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-icon">🪄</div>
+                <h3>Grimorio Literario</h3>
+                <a href="https://bibliosplay.github.io/grimonio/" target="_blank" class="product-url">bibliosplay.github.io/grimonio ↗</a>
+                <p>
+                    Un cuaderno de conjuros para narradores: cada hechizo es una consigna de escritura y cada palabra escrita queda encuadernada para siempre en tu grimorio personal.
+                </p>
+                <ul class="feature-list">
+                    <li><span class="check">✓</span> Seis escuelas de conjuros: personaje, diálogo, atmósfera y más</li>
+                    <li><span class="check">✓</span> Incantación, ingrediente y efecto en cada consigna</li>
+                    <li><span class="check">✓</span> Grimorio personal que encuaderna tus textos</li>
+                    <li><span class="check">✓</span> Rango de Aprendiz a Guardián del Grimorio Eterno</li>
+                    <li><span class="check">✓</span> Descarga tu grimorio como recuerdo</li>
+                </ul>
+                <a href="https://bibliosplay.github.io/grimonio/" target="_blank" class="product-btn">
+                    Abrir el grimorio
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                 </a>
             </div>
