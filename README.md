@@ -8,7 +8,7 @@ Presentación webapp del **Laboratorio de Innovación Bibliotecaria** — Biblio
 |----------|-----|
 | Juegos Literarios | [juegosliterarios.com](https://juegosliterarios.com) |
 | Biblio Catálogo | [bibliocatalogo.vercel.app](https://bibliocatalogo.vercel.app) |
-| Grimorio Literario | [bibliosplay.github.io/grimonio](https://bibliosplay.github.io/grimonio) |
+| Grimorio Literario | [grimonio.vercel.app](https://grimonio.vercel.app) |
 
 ## Stack
 
